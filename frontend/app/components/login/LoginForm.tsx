@@ -1,5 +1,6 @@
 import React from 'react';
 import tailwind from 'tailwindcss/tailwind.css';
+import Button from '../utilities/Button';
 
 function LoginForm() {
 
@@ -9,7 +10,7 @@ function LoginForm() {
       <form className="flex flex-col items-center gap-4 pt-5 p-5">
         <input className="bg-black rounded-md placeholder:pl-2 placeholder:text-white" type="email" placeholder="Email" />
         <input className="bg-black rounded-md placeholder:pl-2 placeholder:text-white" type="password" placeholder="Password" />
-        <button className="bg-black py-1 p-8 rounded-md" type="submit">Login</button>
+        <Button />
       </form>
     </div>
   );
