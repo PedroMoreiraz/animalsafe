@@ -1,0 +1,40 @@
+{
+ "info": {
+  "format_version": "20261015"
+ },
+ "predictions": [
+  {
+   "filepath": "teste/onca.png",
+   "country": "BRA",
+   "detections": [
+    {
+     "category": "1",
+     "label": "animal",
+     "conf": 0.8732,
+     "bbox": [
+      0.005,
+      0.1402,
+      0.8066,
+      0.8232
+     ],
+     "raw_classifications": {
+      "classes": [
+       "9b7fea59-cfa3-499c-a420-bcf36277dcd8;mammalia;carnivora;felidae;panthera;onca;jaguar",
+       "aa73e0ac-973d-461d-914a-d2fa6e4b98a4;mammalia;carnivora;felidae;panthera;pardus;leopard"
+      ],
+      "scores": [
+       0.9698,
+       0.0293
+      ]
+     },
+     "processed_classification": {
+      "class": "9b7fea59-cfa3-499c-a420-bcf36277dcd8;mammalia;carnivora;felidae;panthera;onca;jaguar",
+      "score": 0.9698,
+      "source": "classifier"
+     }
+    }
+   ],
+   "model_version": "4.0.3a"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "info": {
+  "format_version": "20261015"
+ },
+ "predictions": [
+  {
+   "filepath": "teste/capivara.jpg",
+   "country": "BRA",
+   "detections": [
+    {
+     "category": "1",
+     "label": "animal",
+     "conf": 0.9342,
+     "bbox": [
+      0.3026,
+      0.1108,
+      0.6948,
+      0.8448
+     ],
+     "raw_classifications": {
+      "classes": [
+       "872e96f1-7a77-4ed2-824a-22fcbb32f598;mammalia;rodentia;caviidae;hydrochoerus;hydrochaeris;capybara",
+       "fd8f5fbf-494b-4de4-969b-a8d2fdac7f38;mammalia;rodentia;sciuridae;marmota;sibirica;mongolian marmot"
+      ],
+      "scores": [
+       0.9306,
+       0.0225
+      ]
+     },
+     "processed_classification": {
+      "class": "872e96f1-7a77-4ed2-824a-22fcbb32f598;mammalia;rodentia;caviidae;hydrochoerus;hydrochaeris;capybara",
+      "score": 0.9306,
+      "source": "classifier"
+     }
+    },
+    {
+     "category": "1",
+     "label": "animal",
+     "conf": 0.0187,
+     "bbox": [
+      0.8523,
+      0.3616,
+      0.1475,
+      0.1388
+     ]
+    }
+   ],
+   "model_version": "4.0.3a"
+  }
+ ]
+}

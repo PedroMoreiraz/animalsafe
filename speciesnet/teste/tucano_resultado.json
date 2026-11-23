@@ -1,0 +1,40 @@
+{
+ "info": {
+  "format_version": "20261015"
+ },
+ "predictions": [
+  {
+   "filepath": "teste/tucano.jpg",
+   "country": "BRA",
+   "detections": [
+    {
+     "category": "1",
+     "label": "animal",
+     "conf": 0.976,
+     "bbox": [
+      0.3126,
+      0.1863,
+      0.5484,
+      0.6493
+     ],
+     "raw_classifications": {
+      "classes": [
+       "cc17e7c2-109d-413a-bebf-6da97b044df3;aves;piciformes;ramphastidae;ramphastos;tucanus;red-billed toucan",
+       "b1352069-a39c-4a84-a949-60044271c0c1;aves;;;;;bird"
+      ],
+      "scores": [
+       0.2933,
+       0.0444
+      ]
+     },
+     "processed_classification": {
+      "class": "1f689929-883d-4dae-958c-3d57ab5b6c16;;;;;;animal",
+      "score": 0.976,
+      "source": "detector"
+     }
+    }
+   ],
+   "model_version": "4.0.3a"
+  }
+ ]
+}
